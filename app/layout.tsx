@@ -4,7 +4,7 @@ import Search from "@/components/search/search";
 import Link from "next/link";
 
 export const metadata = {
-	themeColor: "#faf5ff",
+	themeColor: "#3730a3",
 	openGraph: {
 		title: "Meow! Cat facts for everyone!",
 		description: "Making the world a better place with daily cat facts! Meow! 😻",
