@@ -2,8 +2,8 @@ import { MetadataRoute } from "next";
 
 export default async function Manifest(): Promise<MetadataRoute.Manifest> {
 	return {
-		name: "Meow - Cat Facts",
-		short_name: "Meow",
+		name: "Meow!",
+		short_name: "Meow!",
 		description: "A simple app that shows you cat facts",
 		theme_color: "#3730a3",
 		background_color: "#3730a3",
