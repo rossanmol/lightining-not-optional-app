@@ -1,7 +1,10 @@
 import Link from "next/link";
 
 
-
+export const metadata = {
+	title: 'Meow! Cat facts for everyone!',
+	description: 'Making the world a better place with daily cat facts! Meow! 😻',
+};
 
 export default function Home() {
   return (
