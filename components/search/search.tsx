@@ -79,15 +79,14 @@ export default function Search({ className }: { className: string }) {
 					</Button>
 				) : (
 					<div className="flex w-full justify-end @xl:hidden" data-testid="mobile-button-container">
-						<Link
-							href="/facts"
+						<Button
 							data-testid="mobile-button"
 							type="button"
 							className="bg-indigo-700 text-white"
 							onClick={() => setIsSearchVisible(true)}
 						>
 							<FaSearch />
-						</Link>
+						</Button>
 					</div>
 				)}
 			</form>
