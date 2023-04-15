@@ -5,6 +5,9 @@ type Props = {
 	params: { id: string };
   };
 
+
+export const revalidate = 10;
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const fact = await getFact(params.id);
 	return {
