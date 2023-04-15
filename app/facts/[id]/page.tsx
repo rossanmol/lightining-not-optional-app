@@ -24,12 +24,6 @@ export default async function FactPage({ params }: Props) {
 
 	return (
 	  <>
-		  <div className="bg-indigo-300 px-4 py-[1vh]">
-			  <h1 className="text-center text-lg text-indigo-800">
-				 	Selected Fact: ${fact._id}
-			  </h1>
-		  </div>
-
 			<div className="container mx-auto flex gap-2 mt-20 flex-col">
 				<article key={fact._id} className="rounded bg-indigo-200 p-5 text-indigo-900 text-center w-100">
 					{fact.text} by {fact.user.name.first} {fact.user.name.last}
