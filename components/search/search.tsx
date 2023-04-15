@@ -80,6 +80,7 @@ export default function Search({ className }: { className: string }) {
 				) : (
 					<div className="flex w-full justify-end @xl:hidden" data-testid="mobile-button-container">
 						<Button
+							aria-label="Search for a cat fact"
 							data-testid="mobile-button"
 							type="button"
 							className="bg-indigo-700 text-white"
