@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { getFacts } from "./facts.util";
 
-
 export default async function RandomFactPage() {
 	const fact = await getFacts();
 

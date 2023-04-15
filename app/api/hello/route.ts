@@ -1,3 +1,5 @@
+export const revalidate = 10;
+
 export async function GET() {
 	await new Promise(resolve => setTimeout(resolve, 5000));
 

@@ -50,11 +50,7 @@ export async function getFact(id: string) {
 
 
 export async function getCatSound() {
-	const response = await fetch(`${process.env.HOSTNAME}/api/hello`, {
-		next: {
-			revalidate: 10
-		}
-	})
+	const response = await fetch(`${process.env.HOSTNAME}/api/hello`)
 	const unsafeData = await response.text();
 	return unsafeData;
 }
